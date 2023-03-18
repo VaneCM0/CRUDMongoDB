@@ -1,6 +1,6 @@
 /**
  *
- * @author xcheko51x
+ * @author medin
  */
 package com.mycompany.crudmongodb;
 
@@ -28,38 +28,38 @@ public class CRUDMongoDB {
             mostrarColeccion(database, "Perros");
             Scanner scan = new Scanner(System.in);
             
-            //INSERTAR PIÑATA
-            //System.out.println("Ingrese el nombre de la piñata");
-            //String ingresarPiniata = scan.nextLine();
-            //System.out.println("Ingrese el codigo de la piñata");
+            //INSERTAR PERRO
+            //System.out.println("Ingrese el nombre del perro");
+            //String ingresarPerro = scan.nextLine();
+            //System.out.println("Ingrese la raza del perro");
             //String ingresarCodigo = scan.nextLine();
-            //insertarPiniata(database, "piniata", ingresarPiniata, ingresarCodigo);
-            //mostrarColeccion(database, "piniata");
+            //insertarPerro(database, "Perros", ingresarPerro, ingresarRaza);
+            //mostrarColeccion(database, "Perros");
 
             
-            //ACTUALIZAR PIÑATA
+            //ACTUALIZAR PERRO
             //mostrarColeccion(database, "Perros");
             //System.out.println("Nombre del perro que se va a actualizar");
-            //String actualizaPiniata = scan.nextLine();
+            //String actualizaPerro = scan.nextLine();
             //System.out.println("Ingrese la raza del perro");
             //String actualizaCodigo= scan.nextLine();
-            //actualizarPerro(database, "Perros", actualizaPiniata, actualizaCodigo);
+            //actualizarPerro(database, "Perros", actualizaPerro, actualizaRaza);
             //mostrarColeccion(database, "Perros");
 
            
             //BUSCAR POR NOMBRE
-            //System.out.println("Nombre de la piñata que está buscando");
-            //mostrarColeccion(database, "piniata");
-            //String buscarPiniata = scan.nextLine();
-            //buscarPorNombre(database, "piniata", buscarPiniata);
+            //System.out.println("Nombre del perro que está buscando");
+            //mostrarColeccion(database, "Perros");
+            //String buscarPerro = scan.nextLine();
+            //buscarPorNombre(database, "Perros", buscarPerro);
 
            
             //ELIMINAR Perro
             //mostrarColeccion(database, "Perros");
             //System.out.println("Nombre del perro que se va a borrar");
-            //String eliminaPiniata = scan.nextLine();
-            //borrarPiniata(database, "Perros", eliminaPerro);
-            //mostrarColeccion(database, "piniata");
+            //String eliminaPerro = scan.nextLine();
+            //borrarPerro(database, "Perros", eliminaPerro);
+            //mostrarColeccion(database, "Perros");
             
         } catch (Exception e)
         {
